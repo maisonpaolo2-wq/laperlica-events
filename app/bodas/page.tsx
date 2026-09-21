@@ -19,8 +19,8 @@ export default function BodasPage() {
             <span className="eyebrow">Portfolio</span>
             <h1 className="headline" style={{ marginTop: 16 }}>Bodas que hemos vivido</h1>
             <p className="body-text" style={{ marginTop: 20 }}>
-              Cada boda es unica. Aqui tienes algunas de las historias que hemos tenido el
-              privilegio de acompanar en Murcia y alrededores.
+              Cada boda es única. Aquí tienes algunas de las historias que hemos tenido el
+              privilegio de acompañar en Murcia y alrededores.
             </p>
           </Reveal>
         </div>
@@ -71,9 +71,9 @@ export default function BodasPage() {
           <Reveal>
             <h2 className="headline">Tu boda puede ser la siguiente</h2>
             <p className="body-text">
-              Cada historia empieza con una conversacion. Cuentanos la vuestra.
+              Cada historia empieza con una conversación. Cuéntanos la vuestra.
             </p>
-            <Link href="/contacto" className="btn btn-ghost">Empezamos?</Link>
+            <Link href="/contacto" className="btn btn-ghost">¿Empezamos?</Link>
           </Reveal>
         </div>
       </section>

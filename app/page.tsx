@@ -27,8 +27,8 @@ export default function HomePage() {
             <p className="eyebrow" style={{ color: 'rgba(240,230,196,0.9)' }}>Wedding Planner · Murcia</p>
             <h1 className="display">Bodas que<br />se sienten reales</h1>
             <p className="hero-subtitle">
-              Ana Navarro organiza tu boda desde el corazon. Con presupuesto real,
-              proveedores de confianza y, si quieres, un proposito solidario.
+              Ana Navarro organiza tu boda desde el corazón. Con presupuesto real,
+              proveedores de confianza y, si quieres, un propósito solidario.
             </p>
             <div className="hero-ctas">
               <Link href="/contacto" className="btn btn-amber">Hablamos de tu boda</Link>
@@ -59,15 +59,15 @@ export default function HomePage() {
                   <span style={{ color: 'var(--sand)' }}>·</span>
                   <span>Murcia</span>
                 </div>
-                <h2 className="headline">Una boda bonita<br />no deberia ser un lujo</h2>
+                <h2 className="headline">Una boda bonita<br />no debería ser un lujo</h2>
                 <p className="body-text">
-                  Llevo anos organizando bodas en Murcia con una idea fija: que cada pareja merezca
-                  el dia que imagino, sin necesidad de gastarse lo que no tiene. Trabajo contigo,
+                  Llevo años organizando bodas en Murcia con una idea fija: que cada pareja merezca
+                  el día que imaginó, sin necesidad de gastarse lo que no tiene. Trabajo contigo,
                   no para ti.
                 </p>
                 <p className="body-text">
-                  Y si ademas quieres que vuestra celebracion tenga un impacto en la comunidad,
-                  tenemos el servicio de Boda Solidaria, unico en la region.
+                  Y si además quieres que vuestra celebración tenga un impacto en la comunidad,
+                  tenemos el servicio de Boda Solidaria, único en la región.
                 </p>
                 <Link href="/sobre-ana" className="link-arrow">
                   Conoce a Ana <span>&#8594;</span>
@@ -169,8 +169,8 @@ export default function HomePage() {
         <div className="wrap">
           <Reveal>
             <p className="pull-quote">
-              Una boda bonita no deberia ser solo para quienes mas tienen.{' '}
-              <span className="statement-accent">Eso es lo que hacemos posible cada dia.</span>
+              Una boda bonita no debería ser solo para quienes más tienen.{' '}
+              <span className="statement-accent">Eso es lo que hacemos posible cada día.</span>
             </p>
           </Reveal>
         </div>
@@ -210,7 +210,7 @@ export default function HomePage() {
           <Reveal>
             <div className="section-header">
               <div className="section-label">
-                <span className="eyebrow">Como trabajamos</span>
+                <span className="eyebrow">Cómo trabajamos</span>
                 <h2 className="headline">El proceso</h2>
               </div>
             </div>
@@ -244,18 +244,18 @@ export default function HomePage() {
           <div className="split-copy-inner">
             <Reveal>
               <span className="eyebrow">Boda Solidaria</span>
-              <h2 className="headline" style={{ marginTop: 12 }}>Celebrar con proposito</h2>
+              <h2 className="headline" style={{ marginTop: 12 }}>Celebrar con propósito</h2>
               <p className="body-text" style={{ marginTop: 16 }}>
                 Organizamos tu boda igual que siempre, con el mismo cuidado y detalle.
                 La diferencia es que parte de nuestros honorarios va a la causa solidaria
-                que vosotros elejaos. Tu eliges quien se beneficia.
+                que vosotros elijáis. Tú eliges quién se beneficia.
               </p>
               <p className="body-text" style={{ marginTop: 8 }}>
                 Cruz Roja, comedores sociales, asociaciones locales. Lo que tenga sentido
                 para vosotros como pareja.
               </p>
               <Link href="/contacto" className="btn btn-amber-outline" style={{ marginTop: 8 }}>
-                Quiero saber mas
+                Quiero saber más
               </Link>
             </Reveal>
           </div>
@@ -291,10 +291,10 @@ export default function HomePage() {
       <section className="cta-final">
         <div className="wrap">
           <Reveal>
-            <h2 className="headline">Hablamos de tu boda?</h2>
+            <h2 className="headline">¿Hablamos de tu boda?</h2>
             <p className="body-text">
               Una llamada de 20 minutos, sin compromiso. Nos conocemos, te escuchamos
-              y vemos si somos el encaje perfecto para vuestro dia.
+              y vemos si somos el encaje perfecto para vuestro día.
             </p>
             <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
               <a href={waUrl} target="_blank" rel="noopener noreferrer" className="btn btn-ghost">

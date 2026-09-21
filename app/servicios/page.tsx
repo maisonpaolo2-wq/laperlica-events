@@ -6,7 +6,7 @@ import { site, services, process } from '@/content/data'
 
 export const metadata: Metadata = {
   title: 'Servicios',
-  description: `Coordinacion completa, coordinacion de dia, asesoria express y bodas solidarias en Murcia. ${site.name} · ${site.plannerName}.`,
+  description: `Coordinación completa, coordinación de día, asesoría exprés y bodas solidarias en Murcia. ${site.name} · ${site.plannerName}.`,
 }
 
 const waUrl = `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(site.whatsappMessage)}`
@@ -20,10 +20,10 @@ export default function ServiciosPage() {
           <div style={{ maxWidth: 700, paddingBottom: 40 }}>
             <Reveal>
               <span className="eyebrow">Nuestros servicios</span>
-              <h1 className="headline" style={{ marginTop: 16 }}>Todo lo que necesitas<br />para el dia perfecto</h1>
+              <h1 className="headline" style={{ marginTop: 16 }}>Todo lo que necesitas<br />para el día perfecto</h1>
               <p className="body-text" style={{ marginTop: 24 }}>
-                Desde la coordinacion completa hasta una asesoria express, adaptamos cada
-                servicio a tu situacion real. Sin letra pequena, sin sorpresas.
+                Desde la coordinación completa hasta una asesoría exprés, adaptamos cada
+                servicio a tu situación real. Sin letra pequeña, sin sorpresas.
               </p>
             </Reveal>
           </div>
@@ -84,7 +84,7 @@ export default function ServiciosPage() {
           <Reveal>
             <div className="section-header">
               <div className="section-label">
-                <span className="eyebrow">Como trabajamos</span>
+                <span className="eyebrow">Cómo trabajamos</span>
                 <h2 className="headline">El proceso paso a paso</h2>
               </div>
             </div>
@@ -107,9 +107,9 @@ export default function ServiciosPage() {
       <section className="cta-final">
         <div className="wrap">
           <Reveal>
-            <h2 className="headline">Lista para empezar?</h2>
+            <h2 className="headline">¿Lista para empezar?</h2>
             <p className="body-text">
-              Cuéntanos vuestra historia y vemos juntos que servicio encaja mejor.
+              Cuéntanos vuestra historia y vemos juntos qué servicio encaja mejor.
               Primera llamada siempre gratuita.
             </p>
             <Link href="/contacto" className="btn btn-ghost">Contactar ahora</Link>

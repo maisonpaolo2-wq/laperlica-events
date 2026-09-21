@@ -19,7 +19,7 @@ export default function ContactoPage() {
           <Reveal>
             <h1 className="headline">Hablamos de tu boda</h1>
             <p className="body-text">
-              Cuéntanos un poco sobre vosotros y Ana os respondera en menos de 48 horas.
+              Cuéntanos un poco sobre vosotros y Ana os responderá en menos de 48 horas.
               Si prefieres, escribe directamente por WhatsApp.
             </p>
           </Reveal>
@@ -32,7 +32,7 @@ export default function ContactoPage() {
                 </span>
               </div>
               <div className="contact-detail">
-                <span className="contact-label">WhatsApp · Telefono</span>
+                <span className="contact-label">WhatsApp · Teléfono</span>
                 <span className="contact-value">
                   <a href={`tel:${site.phone}`}>{site.phone}</a>
                 </span>
@@ -47,7 +47,7 @@ export default function ContactoPage() {
               </div>
               <div className="contact-detail">
                 <span className="contact-label">Zona de trabajo</span>
-                <span className="contact-value">Murcia · Cartagena · Region de Murcia</span>
+                <span className="contact-value">Murcia · Cartagena · Región de Murcia</span>
               </div>
             </div>
           </Reveal>
